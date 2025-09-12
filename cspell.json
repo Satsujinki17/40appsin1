@@ -1,0 +1,38 @@
+{
+  "version": "0.2",
+  "language": "es,es-ES",
+  "ignorePaths": [
+    "node_modules/**",
+    "package-lock.json",
+    "dist/**",
+    "build/**",
+    "coverage/**",
+    "*.min.*"
+  ],
+  "words": [
+    "vue",
+    "Vue",
+    "TypeScript",
+    "JavaScript",
+    "vite",
+    "vitest",
+    "cypress",
+    "playwright",
+    "eslint",
+    "prettier",
+    "pnpm",
+    "yarnrc",
+    "html",
+    "css",
+    "backend",
+    "frontend",
+    "poyect",
+    "samuel"
+  ],
+  "ignoreWords": [],
+  "import": [
+    "@cspell/dict-es-es/cspell-ext.json"
+  ],
+  "useGitignore": true,
+  "enabled": true
+}
