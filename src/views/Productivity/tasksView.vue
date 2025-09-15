@@ -308,7 +308,113 @@ class Additional_Improvements {
                     </div>
                 </div>
 
+                <div class="task-card">
+                    <div class="task-card-header">
+                        <span class="taskTitle">Titulo</span>
 
+                        <div class="date-content">
+                            <span class="date-style">Fecha inicio</span>
+                            <span class="date-style">Fecha Fin</span>
+                        </div>
+                    </div>
+                    <div class="task-view-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing...
+                    </div>
+                    <div class="task-footer">
+                        <span>Estado: Incompleta</span>
+                        <span>Avance: 5%</span>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="task-card-header">
+                        <span class="taskTitle">Titulo</span>
+
+                        <div class="date-content">
+                            <span class="date-style">Fecha inicio</span>
+                            <span class="date-style">Fecha Fin</span>
+                        </div>
+                    </div>
+                    <div class="task-view-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing...
+                    </div>
+                    <div class="task-footer">
+                        <span>Estado: Incompleta</span>
+                        <span>Avance: 5%</span>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="task-card-header">
+                        <span class="taskTitle">Titulo</span>
+
+                        <div class="date-content">
+                            <span class="date-style">Fecha inicio</span>
+                            <span class="date-style">Fecha Fin</span>
+                        </div>
+                    </div>
+                    <div class="task-view-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing...
+                    </div>
+                    <div class="task-footer">
+                        <span>Estado: Incompleta</span>
+                        <span>Avance: 5%</span>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="task-card-header">
+                        <span class="taskTitle">Titulo</span>
+
+                        <div class="date-content">
+                            <span class="date-style">Fecha inicio</span>
+                            <span class="date-style">Fecha Fin</span>
+                        </div>
+                    </div>
+                    <div class="task-view-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing...
+                    </div>
+                    <div class="task-footer">
+                        <span>Estado: Incompleta</span>
+                        <span>Avance: 5%</span>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="task-card-header">
+                        <span class="taskTitle">Titulo</span>
+
+                        <div class="date-content">
+                            <span class="date-style">Fecha inicio</span>
+                            <span class="date-style">Fecha Fin</span>
+                        </div>
+                    </div>
+                    <div class="task-view-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing...
+                    </div>
+                    <div class="task-footer">
+                        <span>Estado: Incompleta</span>
+                        <span>Avance: 5%</span>
+                    </div>
+                </div>
+
+                <div class="task-card">
+                    <div class="task-card-header">
+                        <span class="taskTitle">Titulo</span>
+
+                        <div class="date-content">
+                            <span class="date-style">Fecha inicio</span>
+                            <span class="date-style">Fecha Fin</span>
+                        </div>
+                    </div>
+                    <div class="task-view-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing...
+                    </div>
+                    <div class="task-footer">
+                        <span>Estado: Incompleta</span>
+                        <span>Avance: 5%</span>
+                    </div>
+                </div>
 
             </div>
             <div class="window">
@@ -316,7 +422,8 @@ class Additional_Improvements {
                 <div class="titulo" id="titleNote">Titulo De la nota</div>
 
                 <br>
-                <div class="" id="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magni facere cum illo
+                <div class="body-note" id="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magni facere
+                    cum illo
                     dignissimos nihil rerum veritatis, repellendus fuga, eum pariatur debitis animi maiores praesentium
                     quia iste, voluptate eaque repellat.
                     Quam magni quasi laudantium id? Similique ipsa voluptate deserunt sit qui odio nam eos dicta, nisi
@@ -329,11 +436,15 @@ class Additional_Improvements {
                     consequuntur, necessitatibus nobis quo dolore maxime laboriosam tempore natus iste soluta ab,
                     repellat illum facilis incidunt veritatis.</div>
 
-                <div>
-                    <div class="" id="">Font Style</div>
-                    <div class="" id="">Type List</div>
-                    <div class="" id="">Grafico</div>
-                    <div class="" id="">Table</div>
+                <div class="tools-bar">
+
+                    <div class="tools">
+                        <div class="tool-Elemnt" id="">Font Style</div>
+                        <div class="tool-Elemnt" id="">Type List</div>
+                        <div class="tool-Elemnt" id="">Grafico</div>
+                        <div class="tool-Elemnt" id="">Table</div>
+                    </div>
+
                     <div class="" id="">Save</div>
                 </div>
             </div>
@@ -356,18 +467,18 @@ class Additional_Improvements {
 .main {
     display: flex;
     flex-direction: column;
+    height: calc(100vh - 5rem);
     margin-top: 5rem;
     background-color: var(--primary);
     color: var(--light);
-    height: calc(100vh - 5rem);
 }
 
 .task-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--primary);
     height: 5rem;
+    background-color: var(--primary);
 }
 
 .task-menu ul {
@@ -375,32 +486,34 @@ class Additional_Improvements {
 }
 
 .task-menu ul li {
-    list-style: none;
-    margin: 0px 12px 0px 12px;
+    display: flex;
+    margin: 0px 12px;
     font-size: larger;
+    list-style: none;
     cursor: pointer;
 }
 
 .row {
     display: flex;
-    color: var(--color-text);
-    background-color: var(--light);
     height: calc(100vh - 5rem - 1rem);
+    background-color: var(--light);
+    color: var(--color-text);
 }
-
 
 .task-list {
     width: 20rem;
+    height: 85vh;
     border-right: 1px solid var(--gray);
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-
 .task-card {
+    margin: 10px 2px;
+    padding: 3px;
     background-color: var(--color-text);
     color: var(--color-background-soft);
     border-radius: 5px;
-    margin: 10px 2px;
-    padding: 3px;
 }
 
 .task-card-header {
@@ -417,20 +530,55 @@ class Additional_Improvements {
 .date-content {
     display: flex;
     flex-direction: column;
-    color: var(--accent);
     font-size: small;
+    color: var(--accent);
 }
 
-
 .task-footer {
-    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .window {
-    width: calc(100rem - 20rem);
+    width: calc(100rem - 5rem);
     margin: 10px;
+    overflow: hidden;
+}
+
+.titulo {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.body-note {
+    padding: 1rem 2rem;
+    font-size: large;
+}
+
+.tools-bar {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: calc(100rem - 1rem);
+    height: 5rem;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    background-color: var(--color-text);
+    color: var(--color-background-soft);
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+}
+
+.tool-Elemnt {
+    margin: 0px 10px;
+    cursor: pointer;
 }
 </style>
